@@ -7,6 +7,8 @@ const ProductTag = require("./ProductTag");
 // Products belongsTo Category
 Product.belongsTo(Category, {
   foreignKey: "category_id",
+// When category is deleted, and the associate product will be deleted too. 
+  onDelete:"CASCADE"
 });
 
 // Categories have many Products
