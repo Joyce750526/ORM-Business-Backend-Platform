@@ -18,14 +18,13 @@
 - [Purpose](#purpose)
 - [Installation](#installation)
 - [Demo Video](#demo-video)
+- [Screenshots](#screenshots)
 - [Deployed URL](#deployed-url)
 - [Questions](#questions)
 
 ---
 
-## Purpose:
-
-### Apply express.js to create backend platform for user's to save notes.
+## Purpose: 
 
 To create this Backend application called `ORM Business Backend Platform` to help business owners to manage their products in an organized way by reviewing their products, categories, product tags and stock items in the Backend platform application.
 
@@ -36,25 +35,19 @@ To create this Backend application called `ORM Business Backend Platform` to hel
 To use this Backend Platform Application. Please refer the following steps.
 
 1. You need to clone this package in your computer, and open in VS Code.
-2. You need to run `npm install` in the terminal first to get all necessary dependencies.
-3. You need to install the following dependencies. See below:
 
-- npm install inquirer@8.2.4
-- npm i mysql
-- npm i mysql2
-- npm i console.table
+2. You need to run `npm install` in the terminal first to get all necessary dependencies. See below:
 
+- `dotenv`
+- `express.js`
+- `mysql2`
+- `sequelize`
 
-   "dotenv": "^8.6.0",
-    "express": "^4.17.1",
-    "mysql2": "^2.3.3",
-    "sequelize": "^5.22.5"
+3. Run `mysql -u root -p` to start MySQL database and enter your MySQL password!
 
-3. Run `npm install` after you have completed installing all of dependencies.
+4. Open `server.js` in your VS Code terminal and run `node server.js` to start this business backend platform application!
 
-4. open `server.js` in your VS Code terminal and run `node server.js` to start this application!
-
----
+5. You can easily operate/ test this application in Insomnia.
 
 ---
 
@@ -63,18 +56,22 @@ To use this Backend Platform Application. Please refer the following steps.
 ![ReadMe Generator Walkthrough Video can be found here.](./Assets/video/ORM-%20Business%20Backend%20Platform-%20Insomnia%20Walkthrough%20Video.gif)
 
 ---
-## Deployed Images:
+## Screenshots:
 
-![Screenshots can be found here.](./assets/screenshots/1.png)
+![Screenshots can be found here.](./assets/screenshots/get%20all%20product.png)
+
+![Screenshots can be found here.](./assets/screenshots/get%20all%20categories.png)
+
+![Screenshots can be found here.](./assets/screenshots/create%20new%20category.png)
+
+![Screenshots can be found here.](./assets/screenshots/delete%20a%20product.png)
 
 ---
 
-## Required to submit the following URL for review:
 
 ## Deployed URL:
 
 - [Github Deployed Page](https://github.com/Joyce750526/ORM-Business-Backend-Platform)
-
 
 ---
 
