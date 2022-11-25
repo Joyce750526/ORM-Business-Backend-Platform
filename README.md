@@ -57,13 +57,24 @@ To use this Backend Platform Application. Please refer the following steps.
 
 ---
 ## Screenshots:
+<br>
 
+**Get All Product**
 ![Get All Product Screenshots.](./Assets/screenshots/get%20all%20product.png)
 
+<br>
+
+**Get All Categories**
 ![Get All Categories Screenshots.](./Assets/screenshots/get%20all%20categories.png)
 
+<br>
+
+**Create A Category**
 ![Create A Category Screenshots.](./Assets/screenshots/create%20new%20category.png)
 
+<br>
+
+**Delete A Product**
 ![Delete A Product Screenshots.](./Assets/screenshots/delete%20a%20product.png)
 
 ---
